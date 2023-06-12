@@ -1,0 +1,48 @@
+* {
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  background-color: rgb(232, 231, 231);
+}
+
+header {
+  text-align: center;
+}
+
+.name {
+  font-size: 44px;
+  color: rgb(27, 128, 73);
+}
+
+.subheading {
+  font-style: italic;
+  margin-top: -25px;
+}
+
+.container {
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 3px;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  background-color: rgb(239, 239, 251);
+}
+
+.project-container {
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 3px;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  background-color: rgb(239, 239, 251);
+}
+
+em {
+  font-weight: 500;
+}
+.footer {
+  font-size: 12px;
+}
