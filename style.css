@@ -8,6 +8,10 @@ header {
   margin-top: 20px;
 }
 
+.pronouns {
+  font-size: 14px;
+}
+
 .name {
   font-size: 44px;
 }
@@ -16,6 +20,7 @@ header {
   font-style: italic;
   font-size: 24px;
   margin-top: -10px;
+  margin-bottom: -5px;
 }
 
 .container {
@@ -25,8 +30,8 @@ header {
 .project-block {
   border: transparent;
   border-radius: 3px;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .about-me,
@@ -69,4 +74,8 @@ a:hover {
   text-align: center;
   font-size: 12px;
   color: #6c757d;
+}
+
+.navbar {
+  margin-bottom: 10px;
 }
