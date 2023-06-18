@@ -10,3 +10,4 @@ First "launch" is missing a few things.
 - Work out how to reposition the buttons to the bottom right of the div it sits in
 - Maybe change the colour scheme, unsure
 - Add some flair, some images perhaps?
+- Something that uses JS for a bit of practice
