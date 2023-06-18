@@ -6,8 +6,7 @@ First "launch" is missing a few things.
 
 ### What I want to add:
 
-- A Navbar with my LinkedIn and GitHub attached
-- Work out how to reposition the buttons to the bottom right of the div it sits in
+- Work out how to reposition the buttons to the bottom right of the div it sits in so they're all aligned
 - Maybe change the colour scheme, unsure
 - Add some flair, some images perhaps?
 - Something that uses JS for a bit of practice
