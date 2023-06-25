@@ -1,5 +1,6 @@
 * {
   font-family: "Prompt", sans-serif;
+  cursor: default;
 }
 
 header {
@@ -25,7 +26,7 @@ header {
 
 .nav-link {
   font-size: 14px;
-  cursor: default;
+  cursor: pointer;
 }
 
 .subheading {
@@ -53,7 +54,6 @@ header {
   border-radius: 3px;
   border: transparent;
 }
-
 em {
   font-weight: 500;
 }

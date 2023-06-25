@@ -19,6 +19,7 @@ function aboutMe() {
                 something new as CSS can be quite daunting. How did I do?
             </p>
 </div>
+
 <div class="row about-me">
 <h3>Some other random info about me:</h3>
 <ul>
