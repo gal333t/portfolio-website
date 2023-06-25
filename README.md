@@ -18,6 +18,7 @@ Please welcome Backend to the portfolio website! Even though no one ever saw the
 
 ### What I want to add:
 
+- Mobile responsiveness, specifically for the navbar (maybe turning it into a Bootstrap collapsible navbar? )
 - Maybe change the colour scheme, I love dark mode so the darkness appeals to me but it might need a little colour to it
 - Add some flair, some images perhaps? A link that showcases some screenshots of my projects in all different stages of development
 - An admin login page only I can access and add more project entries too. Not sure the best way to do this and not have it visible to everyone.. One of the few downsides to a SPA (in my opinion). Open to suggestions.
