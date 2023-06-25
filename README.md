@@ -1,6 +1,6 @@
 # Portfolio Website
 
-[link to the website, though currently having issues and it won't load so stay tuned](https://portfolio-bl5z.onrender.com)
+[link to the website](https://portfolio-bl5z.onrender.com)
 
 I've finally gotten around to making a portfolio website! At first I left it as a simple HTML page and took the opportunity to learn Bootstrap for my CSS, but in the middle of Project 3 I decided to go full out Javascript. Updates will be noted below in relevant sections, outlining each stage a bit more.
 
