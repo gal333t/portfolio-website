@@ -36,6 +36,12 @@ mongoClient
         info: "This is a wildcard, but I really loved this homework that I did in collaboration with a classmate. We used Javascript and APIs to create a Ron Swanson Quote Generator. Their CSS skills really took it to the next level, such a fun website to use anytime you'd like a handy Ron Swanson quote!",
         github: "https://github.com/gal333t/ronswanson",
       },
+      {
+        project: "Website",
+        name: "Galit's Portfolio",
+        info: "Couldn't forget to add one of the funnest and most challenging projects I've worked on. This website! A combination (so far) of 2 Sundays, I put together a website to showcase my work. Incorporating Bootstrap which I had never used before, and testing my new backend Javascript skills. I reckon I did alright! Very proud of this one and can't wait to continue to work on this and improve it even further. My README will have a more in depth of the progress this website went through.",
+        github: "https://github.com/gal333t/portfolio-website",
+      },
     ]);
   })
   .catch((error) => {
