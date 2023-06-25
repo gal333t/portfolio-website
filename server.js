@@ -15,7 +15,7 @@ mongoClient
   .connect()
   .then((_) => {
     const db = mongoClient.db("Portfolio");
-    db.dropCollection("projects");
+    // db.dropCollection("projects");
     projectsCollection = db.collection("projects");
     projectsCollection.insertMany([
       {
