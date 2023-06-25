@@ -9,6 +9,10 @@ header {
   margin-top: 20px;
 }
 
+.about-me-heading {
+  color: rgba(255, 255, 255, 0.55);
+}
+
 .pronouns {
   font-size: 14px;
 }
@@ -25,7 +29,7 @@ header {
 }
 
 .nav-link {
-  font-size: 14px;
+  font-size: 15px;
   cursor: pointer;
 }
 
@@ -54,6 +58,11 @@ header {
   border-radius: 3px;
   border: transparent;
 }
+
+.about-me p {
+  font-size: 15px;
+}
+
 em {
   font-weight: 500;
 }

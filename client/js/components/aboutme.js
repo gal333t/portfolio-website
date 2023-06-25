@@ -1,17 +1,17 @@
-function aboutMe() {
+function renderAbout() {
   const divRow = document.getElementById("divRow");
   const div = document.createElement("div");
   div.classList = "container";
 
   div.innerHTML = `
 <div class="row about-me">
-  <h3>Welcome to my coding project showcase!</h3>
+  <h3 class="about-me-heading">Welcome to my coding project showcase!</h3>
             <p> My name is Galit, and for the past five years, I have been deeply engaged in the captivating world of
                 television scheduling. With a solid foundation in administrative tasks, I have acquired valuable
                 experience and refined my organisational skills within this fast-paced industry. However, my journey has
                 recently taken an exhilarating turn as I have delved into the captivating realm of coding.</p>
             <p>Driven by a desire for more engaging and dynamic work, I've eagerly embraced the world of programming.
-                Equipped with a diverse skill set that includes <em>Javascript, HTML, CSS, Express.js, NodeJs,
+                Equipped with a diverse skill set that includes <em>Javascript, HTML, CSS, Python, Express.js, NodeJs,
                     Postgres,and MongoDB</em>, I've honed my abilities to bring my ideas to life through code. As my
                 course slowly
                 comes to an end now, I am hoping to get some more of my own personal projects in here. Does this website
@@ -19,11 +19,10 @@ function aboutMe() {
                 something new as CSS can be quite daunting. How did I do?
             </p>
 </div>
-
 <div class="row about-me">
-<h3>Some other random info about me:</h3>
+<h3 class="about-me-heading">Some other random info about me:</h3>
 <ul>
-    <li>I loooove dumplings and noodles, biang biang noods *chefs kiss* and some eggplant dumplings? Say no
+    <li>I <em>love</em> dumplings and noodles, biang biang noods *chefs kiss* and some eggplant dumplings? Say no
         more!
     </li>
     <li>Been vegan since January 1st 2017, basically the only time a new years resolution has ever stuck.
@@ -38,14 +37,13 @@ function aboutMe() {
         on the daily to show off my streak, maybe one day.
     </li>
     <li>I'm really passionate about recycling and one of my favourite things to do when I had weekends and free time, was
-        to sort out recylcing through <a class="link" href="https://banish.com.au/pages/recycling-program"
+        to sort out recycling through <a class="link" href="https://banish.com.au/pages/recycling-program"
             target="_blank">Banish's BRAD
             program</a>
     </li>
     <li>Unlike a lot of coders it seems, I'm not much of a gamer. But I do love playing The Sims 4.</li>
 </ul>
 </div>
-
 `;
   divRow.replaceChildren(div);
 }

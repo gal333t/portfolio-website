@@ -1,5 +1,6 @@
-function renderHeader() {
+function renderPage() {
   setHeaderHtml();
+  renderAbout();
 }
 
 function setHeaderHtml() {
@@ -10,7 +11,7 @@ function setHeaderHtml() {
 <nav class="navbar navbar-expand-lg border-bottom border-bottom-dark" data-bs-theme="dark">
     <div class="container-fluid">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item nav-link" onClick="aboutMe()">About Me</li>
+        <li class="nav-item nav-link" onClick="renderAbout()">About Me</li>
         <li class="nav-item nav-link" onClick="projectDisplay()">Projects</li>
         <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/galitmoss/" target="_blank">LinkedIn</a>
