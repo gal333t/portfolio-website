@@ -16,6 +16,10 @@ header {
   font-size: 44px;
 }
 
+.nav-link {
+  font-size: 14px;
+}
+
 .subheading {
   font-style: italic;
   font-size: 24px;
