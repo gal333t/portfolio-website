@@ -1,4 +1,6 @@
 function projectDisplay() {
+  const divRow = document.getElementById("divRow"); // grabbing the row to append to
+  divRow.textContent = "";
   axios.get("/api/project").then((response) => {
     const listElements = response.data.map((project) => renderList(project));
   });
@@ -26,9 +28,6 @@ function renderList(project) {
   let url = project.github; // fetches the url from the db
   githubBtn.setAttribute("href", url); // sets the link to the github db
   githubBtn.setAttribute("target", "_blank"); // adds the _blank so link opens in new page
-
-  const page = document.getElementById("page");
-  page.textContent = "";
 
   divCol.append(h3, h4, p, githubBtn); // adding all the above elements into the divCol
   divRow.append(divCol); // adding that divCol now to the row

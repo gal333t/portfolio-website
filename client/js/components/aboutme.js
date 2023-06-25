@@ -1,5 +1,5 @@
 function aboutMe() {
-  const page = document.getElementById("page");
+  const divRow = document.getElementById("divRow");
   const div = document.createElement("div");
   div.classList = "container";
 
@@ -30,8 +30,5 @@ function aboutMe() {
         </ul>
     </div>
 `;
-  page.replaceChildren(div);
-
-  const divRow = document.getElementById("divRow");
-  divRow.textContent = "";
+  divRow.replaceChildren(div);
 }
