@@ -30,6 +30,12 @@ mongoClient
         info: "Our second unit was focused on Python, Flask and Postgres. The timing of this project gave me the idea to create a website that would serve as a card for Mother's Day. I had a table of users, which included my siblings and myself that allowed users to write/edit/delete messages for our mum. When you were done, you could view whatever you had written but only my mum could go in and see everyone's messages together. My mum loved it so much, a pity Render only stores it for 6 months. Thankfully took some screenshots for her, and I will try hosting on other websites in the future to bring it back to life.",
         github: "https://github.com/gal333t/project-2",
       },
+      {
+        project: "Homework",
+        name: "Ron Swanson API",
+        info: "This is a wildcard, but I really loved this homework that I did in collaboration with a classmate. We used Javascript and APIs to create a Ron Swanson Quote Generator. Their CSS skills really took it to the next level, such a fun website to use anytime you'd like a handy Ron Swanson quote!",
+        github: "https://github.com/gal333t/ronswanson",
+      },
     ]);
   })
   .catch((error) => {
