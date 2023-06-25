@@ -12,6 +12,10 @@ header {
   font-size: 14px;
 }
 
+.about-me {
+  margin: 10px;
+  color: #6c757d;
+}
 .name {
   font-size: 44px;
 }
@@ -52,10 +56,6 @@ em {
 p,
 li {
   font-size: 14px;
-}
-
-h3 {
-  color: black;
 }
 
 ul {

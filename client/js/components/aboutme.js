@@ -3,7 +3,7 @@ function aboutMe() {
   const div = document.createElement("div");
   div.classList = "container";
   div.innerHTML = `
-    <div class="row bg-secondary about-me">
+    <div class="row about-me">
         <h3>Some other random info to get to know me:</h3>
         <ul>
             <li>I loooove dumplings and noodles, biang biang noods *chefs kiss* and some eggplant dumplings? Say no
