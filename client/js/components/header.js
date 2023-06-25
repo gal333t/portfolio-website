@@ -1,6 +1,6 @@
 function renderPage() {
   setHeaderHtml();
-  renderAbout();
+  renderHomePage();
 }
 
 function setHeaderHtml() {
