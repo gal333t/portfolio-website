@@ -1,9 +1,23 @@
 {
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio website on Render",
+  "main": "server.js",
+  "repository": "https://github.com/gal333t/portfolio-website",
+  "author": "Render Developers",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "axios": "^1.4.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-session": "^1.17.3",
     "mongodb": "^5.6.0",
     "node": "^20.2.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
