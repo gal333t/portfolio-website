@@ -21,7 +21,10 @@ function renderList(project) {
 
   const p = document.createElement("p"); // info
   p.textContent = project.info;
+  p.classList = "mb-5"; // adds a bottom margin of 5px so the button div doesn't overlap
 
+  const btnDiv = document.createElement("div");
+  btnDiv.classList = "btnDiv";
   const githubBtn = document.createElement("a"); // creating the Github button through an a tag
   githubBtn.textContent = "Github";
   githubBtn.classList = "btn btn-dark"; // makes the link a button with css classes
@@ -29,7 +32,9 @@ function renderList(project) {
   githubBtn.setAttribute("href", url); // sets the link to the github db
   githubBtn.setAttribute("target", "_blank"); // adds the _blank so link opens in new page
 
-  divCol.append(h3, h4, p, githubBtn); // adding all the above elements into the divCol
+  btnDiv.append(githubBtn);
+
+  divCol.append(h3, h4, p, btnDiv); // adding all the above elements into the divCol
   divRow.append(divCol); // adding that divCol now to the row
 
   // const footer = document.getElementById("footer");

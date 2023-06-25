@@ -45,6 +45,7 @@ header {
   border-radius: 3px;
   padding: 10px;
   margin: 10px;
+  position: relative;
 }
 
 .about-me,
@@ -87,4 +88,10 @@ a:hover {
 
 .navbar {
   margin-bottom: 10px;
+}
+
+.btnDiv {
+  position: absolute;
+  padding: 10px;
+  bottom: 0px;
 }
