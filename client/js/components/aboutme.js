@@ -2,6 +2,7 @@ function aboutMe() {
   const page = document.getElementById("page");
   const div = document.createElement("div");
   div.classList = "container";
+
   div.innerHTML = `
     <div class="row about-me">
         <h3>Some other random info to get to know me:</h3>
@@ -33,6 +34,4 @@ function aboutMe() {
 
   const divRow = document.getElementById("divRow");
   divRow.textContent = "";
-
-  console.log("About me js is working");
 }

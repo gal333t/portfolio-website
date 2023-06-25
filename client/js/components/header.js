@@ -20,5 +20,4 @@ function setHeaderHtml() {
         </ul>
     </div>
 </nav>`;
-  console.log("Header is working!");
 }

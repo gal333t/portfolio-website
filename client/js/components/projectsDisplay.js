@@ -1,10 +1,7 @@
 function projectDisplay() {
-  //   const divRow = document.getElementById("divRow");
   axios.get("/api/project").then((response) => {
     const listElements = response.data.map((project) => renderList(project));
-    // divRow.replaceChildren(...listElements);
   });
-  console.log("Project Display function is working");
 }
 
 function renderList(project) {
@@ -36,18 +33,8 @@ function renderList(project) {
   divCol.append(h3, h4, p, githubBtn); // adding all the above elements into the divCol
   divRow.append(divCol); // adding that divCol now to the row
 
-  //   const footer = document.getElementById("footer");
-  //   footer.innerHTML = `<p class="footer">Some of the text on this page was written with the help of ChatGPT 🫶🏼</p>`;
+  // const footer = document.getElementById("footer");
+  // footer.innerHTML = `<p class="footer">Some of the text on this page was written with the help of ChatGPT 🫶🏼</p>`;
 
-  console.log("render list function is also working in project display");
   return divRow;
-}
-
-{
-  /* <div class="col project-block bg-secondary">
-                <h3>Project</h3>
-                <h4>Name</h4>
-                <p>Info </p>
-                <a href="https://github.com/gal333t/project-2" target="_blank" class="btn btn-dark">github</a>
-            </div> */
 }
