@@ -10,6 +10,8 @@ NO LONGER IN USE.
 
 A basic webpage running off one HTML file, showcasing some newly learnt styling through Bootstrap. Basic, boring but functional. Displays all the projects I've worked on/are in progress onto the page with some info about me.
 
+![photo taken of the original website](https://i.ibb.co/6DZzRRH/IMG-0826.jpg)
+
 ## Version 2.0
 
 Please welcome Backend to the portfolio website! Even though no one ever saw the original frontend only version, I felt like we deserved a big update (hence the 2.0) for this. I've now added backend with Javascript, a MongoDB database & axios to connect everything and create a SPA (single page application). Pretty good stuff I know. I wasn't going to stress about doing this, but I want this portfolio website to really showcase my abilities, and basic HTML doesn't really do that the way I want. It'll also make adding more projects to the page easier, once a system has been established for only me to access and add to it. For now, new projects will be hardcoded and added via server.js.
