@@ -30,5 +30,9 @@ function aboutMe() {
     </div>
 `;
   page.replaceChildren(div);
+
+  const divRow = document.getElementById("divRow");
+  divRow.textContent = "";
+
   console.log("About me js is working");
 }
