@@ -17,6 +17,7 @@ function renderHomePage() {
                   count as one? I have been experimenting with Bootstrap for this website, trying to teach myself
                   something new as CSS can be quite daunting. How did I do?
               </p>
+            <img src="https://i.ibb.co/TTWj67G/B7-F3-A81-D-1441-4-E8-C-8515-1614-F1-BF05-EC.jpg" alt="photo of me" class="photo-me">
   </div>
   `;
   divRow.replaceChildren(div);

@@ -104,3 +104,11 @@ a:hover {
   bottom: 0px;
   left: 0px;
 }
+
+.photo-me {
+  border: 1px transparent;
+  border-radius: 50%;
+  margin: auto;
+  height: 40%;
+  width: 40%;
+}
