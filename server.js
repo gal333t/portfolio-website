@@ -1,10 +1,12 @@
 const express = require("express");
 const app = express();
 const port = 3000;
+require("dotenv").config();
+
 app.use(express.json());
 app.use(express.static("client"));
 
-const { MongoClient, ObjectId } = require("mongodb");
+const { MongoClient } = require("mongodb");
 const mongoClient = new MongoClient(process.env.MONGO_DB_CONNECTION_STRING);
 
 let projectsCollection;
