@@ -2,17 +2,20 @@
 
 [link to the website, though currently having issues and it won't load so stay tuned](https://portfolio-bl5z.onrender.com)
 
-I've finally gotten around to making a portfolio website. Simply using HTML & CSS (with Bootstrap!).
+I've finally gotten around to making a portfolio website! At first I left it as a simple HTML page and took the opportunity to learn Bootstrap for my CSS, but in the middle of Project 3 I decided to go full out Javascript. Updates will be noted below in relevant sections, outlining each stage a bit more.
 
-First "launch" is missing a few things.
+## Version 1.0
 
-### What I want to add:
+NO LONGER IN USE.
 
-- Work out how to reposition the buttons to the bottom right of the div it sits in so they're all aligned
-- Maybe change the colour scheme, unsure
-- Add some flair, some images perhaps?
-- Something that uses JS for a bit of practice
+A basic webpage running off one HTML file, showcasing some newly learnt styling through Bootstrap. Basic, boring but functional. Displays all the projects I've worked on/are in progress onto the page with some info about me.
 
 ## Version 2.0
 
-Please welcome Backend to the portfolio website! Even though no one ever saw the original frontend only version, I felt like we deserved a big update (hence the 2.0) for this. I've now added backend with a MongoDB database & axios to connect everything and create a SPA (single page application). Pretty good stuff I know. I wasn't going to stress about doing this, but it means I can dynamically add new projects without having to go into the code and change anything. Hopefully works the way I intend in the future and makes it a lot more streamlined for myself. More updates to come.
+Please welcome Backend to the portfolio website! Even though no one ever saw the original frontend only version, I felt like we deserved a big update (hence the 2.0) for this. I've now added backend with Javascript, a MongoDB database & axios to connect everything and create a SPA (single page application). Pretty good stuff I know. I wasn't going to stress about doing this, but I want this portfolio website to really showcase my abilities, and basic HTML doesn't really do that the way I want. It'll also make adding more projects to the page easier, once a system has been established for only me to access and add to it. For now, new projects will be hardcoded and added via server.js.
+
+### What I want to add:
+
+- Maybe change the colour scheme, I love dark mode so the darkness appeals to me but it might need a little colour to it
+- Add some flair, some images perhaps? A link that showcases some screenshots of my projects in all different stages of development
+- An admin login page only I can access and add more project entries too. Not sure the best way to do this and not have it visible to everyone.. One of the few downsides to a SPA (in my opinion). Open to suggestions.
