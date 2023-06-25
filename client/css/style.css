@@ -12,6 +12,10 @@ header {
   font-size: 14px;
 }
 
+.project-name {
+  font-style: italic;
+}
+
 .about-me {
   margin: 10px;
   color: #6c757d;
