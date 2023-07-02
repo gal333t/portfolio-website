@@ -20,12 +20,11 @@ Please welcome Backend to the portfolio website! Even though no one ever saw the
 
 ### Updated Version 2.1
 
-Coming soon.... A blog!
-One of the others features I want to add is a page showcasing some screenshots of my work (both when they were in development and current). Will either be in this updated version or the next.
+And here we go, the Blog has begun! More to come, stay tuned. Going to be writing about my experience in the course & learning all these new skills.
 
 ### What I want to add:
 
 - Mobile responsiveness, specifically for the navbar (maybe turning it into a Bootstrap collapsible navbar? )
 - Adjust the colour scheme, I love dark mode so the darkness appeals to me but it needs a little colour to it
-- Add some flair, some images perhaps? A link that showcases some screenshots of my projects in all different stages of development
+- A page showcasing some screenshots of my work (both when they were in development and current)
 - An admin login page only I can access and add more project entries too. Not sure the best way to do this and not have it visible to everyone.. One of the few downsides to a SPA (in my opinion). Open to suggestions.
