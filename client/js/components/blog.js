@@ -12,7 +12,7 @@ function renderBlog(blog) {
   divRow.classList = "row";
 
   const blogDiv = document.createElement("div");
-  blogDiv.classList = "blog-block bg-secondary";
+  blogDiv.classList = "blog-block";
 
   const h3 = document.createElement("h3"); // blog
   h3.textContent = blog.title;

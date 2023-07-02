@@ -5,12 +5,33 @@
 
 header {
   text-align: center;
-  color: #6c757d;
+  color: #aa83c3;
   margin-top: 20px;
 }
 
+em {
+  font-weight: 500;
+}
+
+p,
+li {
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+strong {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .about-me-heading {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgb(144, 174, 221);
 }
 
 .pronouns {
@@ -31,6 +52,12 @@ header {
 .nav-link {
   font-size: 15px;
   cursor: pointer;
+  color: #93c383;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #4c6444;
 }
 
 .subheading {
@@ -45,14 +72,16 @@ header {
 }
 
 .project-block {
-  border: transparent;
-  border-radius: 3px;
-  padding: 10px;
-  margin: 10px;
   position: relative;
+  background-color: rgb(129, 152, 151);
 }
 
 .blog-block {
+  background-color: rgb(163, 151, 158);
+}
+
+.blog-block,
+.project-block {
   border: transparent;
   border-radius: 3px;
   padding: 10px;
@@ -70,29 +99,9 @@ header {
   font-size: 15px;
 }
 
-em {
-  font-weight: 500;
-}
-
-p,
-li {
-  font-size: 14px;
-}
-
-ul {
-  list-style-type: square;
-}
-
-strong {
-  font-style: italic;
-}
-
 .link {
-  color: #212529;
-}
-
-a:hover {
-  color: black;
+  color: #7996b5;
+  text-decoration: none;
 }
 
 .footer {

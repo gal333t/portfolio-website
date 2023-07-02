@@ -20,11 +20,11 @@ Please welcome Backend to the portfolio website! Even though no one ever saw the
 
 ### Updated Version 2.1
 
-And here we go, the Blog has begun! More to come, stay tuned. Going to be writing about my experience in the course & learning all these new skills.
+And here we go, the Blog has begun! More to come, stay tuned. Going to be writing about my experience in the course & learning all these new skills. Updated colours, addded a little variety in there to give it something less bland. But I did love the greyish tones, maybe one day I'll dial it back a bit again.
 
 ### What I want to add:
 
-- Mobile responsiveness, specifically for the navbar (maybe turning it into a Bootstrap collapsible navbar? )
+- My CV, not sure the best way to do this to TBD for now if/how I'll deploy this info
 - Adjust the colour scheme, I love dark mode so the darkness appeals to me but it needs a little colour to it
 - A page showcasing some screenshots of my work (both when they were in development and current)
-- An admin login page only I can access and add more project entries too. Not sure the best way to do this and not have it visible to everyone.. One of the few downsides to a SPA (in my opinion). Open to suggestions.
+- Mobile responsiveness, specifically for the navbar (maybe turning it into a Bootstrap collapsible navbar? )

@@ -10,7 +10,7 @@ function renderList(project) {
   const divRow = document.getElementById("divRow"); // grabbing the row to append to
 
   const divCol = document.createElement("div"); // creating the column div
-  divCol.classList = "col project-block bg-secondary";
+  divCol.classList = "col project-block";
 
   const h3 = document.createElement("h3"); // project
   h3.textContent = project.project;
