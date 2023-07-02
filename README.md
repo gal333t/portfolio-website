@@ -24,7 +24,7 @@ And here we go, the Blog has begun! More to come, stay tuned. Going to be writin
 
 ### What I want to add:
 
+- Move the blogs to their own page, make the heading visible only and you can click through that to read the whole thing. Or a read more p tag underneath to click on.
 - My CV, not sure the best way to do this to TBD for now if/how I'll deploy this info
-- Adjust the colour scheme, I love dark mode so the darkness appeals to me but it needs a little colour to it
 - A page showcasing some screenshots of my work (both when they were in development and current)
 - Mobile responsiveness, specifically for the navbar (maybe turning it into a Bootstrap collapsible navbar? )

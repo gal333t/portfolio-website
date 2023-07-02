@@ -43,6 +43,7 @@ function renderAbout() {
     </li>
     <li>Unlike a lot of coders it seems, I'm not much of a gamer. But I do love playing The Sims 4.</li>
 </ul>
+<img src="https://i.ibb.co/TTWj67G/B7-F3-A81-D-1441-4-E8-C-8515-1614-F1-BF05-EC.jpg" alt="photo of me in New York City with the skyline behind me on a bright sunny day most notably with the Empire State Building on my right. Wearing a green tank top, oversized black over shirt and black jeans." class="photo-me">
 </div>
 `;
   divRow.replaceChildren(div);

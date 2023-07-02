@@ -37,8 +37,5 @@ function renderList(project) {
   divCol.append(h3, h4, p, btnDiv); // adding all the above elements into the divCol
   divRow.append(divCol); // adding that divCol now to the row
 
-  // const footer = document.getElementById("footer");
-  // footer.innerHTML = `<p class="footer">Some of the text on this page was written with the help of ChatGPT 🫶🏼</p>`;
-
   return divRow;
 }

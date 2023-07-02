@@ -26,12 +26,32 @@ strong {
   font-style: italic;
 }
 
+footer {
+  font-size: 12px;
+  color: #c4ddf3;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
 a:hover {
   text-decoration: underline;
 }
 
 .about-me-heading {
   color: rgb(144, 174, 221);
+}
+
+.about-me {
+  color: #6c757d;
+}
+
+.project-container {
+  border-radius: 3px;
+  border: transparent;
+}
+
+.about-me p {
+  font-size: 15px;
 }
 
 .pronouns {
@@ -42,9 +62,6 @@ a:hover {
   font-style: italic;
 }
 
-.about-me {
-  color: #6c757d;
-}
 .name {
   font-size: 44px;
 }
@@ -88,26 +105,9 @@ a:hover {
   margin: 10px;
 }
 
-.about-me,
-.project-container {
-  padding: 10px;
-  border-radius: 3px;
-  border: transparent;
-}
-
-.about-me p {
-  font-size: 15px;
-}
-
 .link {
   color: #7996b5;
   text-decoration: none;
-}
-
-.footer {
-  text-align: center;
-  font-size: 12px;
-  color: #6c757d;
 }
 
 .navbar {
