@@ -52,6 +52,13 @@ header {
   position: relative;
 }
 
+.blog-block {
+  border: transparent;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+}
+
 .about-me,
 .project-container {
   padding: 10px;
