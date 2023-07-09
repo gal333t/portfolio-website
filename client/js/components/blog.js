@@ -59,8 +59,8 @@ function renderBlogPosts(blog) {
     blogDisplay();
   });
 
-  btnDiv.append(goBackBtn);
-  blogDiv.append(btnDiv);
+  // btnDiv.append(goBackBtn);
+  blogDiv.append(goBackBtn);
   divRow.replaceChildren(blogDiv);
   return divRow;
 }
