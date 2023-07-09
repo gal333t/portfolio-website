@@ -93,16 +93,22 @@ a:hover {
   background-color: rgb(129, 152, 151);
 }
 
-.blog-block {
-  background-color: rgb(163, 151, 158);
-}
-
 .blog-block,
-.project-block {
+.project-block,
+.blog-title {
   border: transparent;
   border-radius: 3px;
   padding: 10px;
   margin: 10px;
+}
+
+.blog-block,
+.blog-title {
+  background-color: rgb(163, 151, 158);
+}
+
+.blog-title {
+  text-align: center;
 }
 
 .link {

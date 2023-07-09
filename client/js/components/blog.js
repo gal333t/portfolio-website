@@ -12,18 +12,16 @@ function renderBlog(blog) {
   divRow.classList = "row";
 
   const blogDiv = document.createElement("div");
-  blogDiv.classList = "blog-block";
+  blogDiv.classList = "blog-title";
 
   const h2 = document.createElement("h2"); // blog
   h2.textContent = blog.title;
-  h2.classList = "blog-title";
 
   h2.addEventListener("click", () => {
     renderBlogPosts(blog);
   });
 
   blogDiv.append(h2);
-
   divRow.append(blogDiv);
   return divRow;
 }
@@ -51,6 +49,6 @@ function renderBlogPosts(blog) {
     blogDiv.append(element);
   });
 
-  divRow.append(blogDiv);
+  divRow.replaceChild(blogDiv);
   return divRow;
 }
