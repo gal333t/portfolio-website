@@ -107,8 +107,14 @@ a:hover {
   background-color: rgb(163, 151, 158);
 }
 
-.blog-title {
+.blog-title > h2 {
   text-align: center;
+}
+
+.blog-title:hover {
+  font-style: italic;
+  font-weight: bold;
+  transition: 1s ease;
 }
 
 .link {
