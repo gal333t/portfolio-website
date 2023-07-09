@@ -119,6 +119,7 @@ a:hover {
 .blog-title:hover {
   font-style: italic;
   font-weight: bold;
+  transform: ease 0.02s;
 }
 
 .link {

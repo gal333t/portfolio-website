@@ -60,6 +60,7 @@ function renderBlogPosts(blog) {
   });
 
   btnDiv.append(goBackBtn);
-  divRow.replaceChildren(blogDiv, btnDiv);
+  blogDiv.append(btnDiv);
+  divRow.replaceChildren(blogDiv);
   return divRow;
 }
