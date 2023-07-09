@@ -16,13 +16,19 @@ A basic webpage running off one HTML file, showcasing some newly learnt styling 
 
 ## Version 2.0
 
+### Released June 25th
+
 Please welcome Backend to the portfolio website! Even though no one ever saw the original frontend only version, I felt like we deserved a big update (hence the 2.0) for this. I've now added backend with Javascript, a MongoDB database & axios to connect everything and create a SPA (single page application). Pretty good stuff I know. I wasn't going to stress about doing this, but I want this portfolio website to really showcase my abilities, and basic HTML doesn't really do that the way I want. It'll also make adding more projects to the page easier, once a system has been established for only me to access and add to it. For now, new projects will be hardcoded and added via server.js.
 
-### Updated Version 2.1
+### Updated Version 2.1 -
+
+Released _July 2nd_
 
 And here we go, the Blog has begun! More to come, stay tuned. Going to be writing about my experience in the course & learning all these new skills. Updated colours, addded a little variety in there to give it something less bland. But I did love the greyish tones, maybe one day I'll dial it back a bit again.
 
-### Updated Version 2.2
+### Updated Version 2.2 -
+
+Released _July 9th_
 
 This was super fun. I am really enjoying these little updates every Sunday. Now when you click on Blog in the navigation bar, you can see the titles of each post and click through to read the blog itself! Very cool little addition to clean up the page a bit. I need to finish off a few more posts to test how it looks and finish making styling changes instead of just saying I have in every commit.
 
