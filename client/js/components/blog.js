@@ -49,6 +49,6 @@ function renderBlogPosts(blog) {
     blogDiv.append(element);
   });
 
-  divRow.replaceChild(blogDiv);
+  divRow.replaceChildren(blogDiv);
   return divRow;
 }
