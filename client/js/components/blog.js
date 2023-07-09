@@ -50,6 +50,14 @@ function renderBlogPosts(blog) {
     blogDiv.append(element);
   });
 
-  divRow.replaceChildren(blogDiv);
+  const buttonDiv = document.createElement("div");
+  const goBackBtn = document.createElement("button");
+  goBackBtn.textContent = "Back to all blogs";
+  goBackBtn.addEventListener("click", () => {
+    blogDisplay();
+  });
+
+  buttonDiv.append(goBackBtn);
+  divRow.replaceChildren(blogDiv, buttonDiv);
   return divRow;
 }
