@@ -37,6 +37,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.container {
+  margin: 5px;
+}
+
+.pronouns {
+  font-size: 14px;
+}
+
 .about-me-heading {
   color: rgb(144, 174, 221);
 }
@@ -45,17 +53,13 @@ a:hover {
   color: #6c757d;
 }
 
-.project-container {
-  border-radius: 3px;
-  border: transparent;
-}
-
 .about-me p {
   font-size: 15px;
 }
 
-.pronouns {
-  font-size: 14px;
+.project-container {
+  border-radius: 3px;
+  border: transparent;
 }
 
 .project-name {
@@ -84,10 +88,6 @@ a:hover {
   margin-bottom: -5px;
 }
 
-.container {
-  margin: 5px;
-}
-
 .project-block {
   position: relative;
   background-color: rgb(129, 152, 151);
@@ -114,7 +114,6 @@ a:hover {
 .blog-title:hover {
   font-style: italic;
   font-weight: bold;
-  transition: 1s ease;
 }
 
 .link {

@@ -11,8 +11,8 @@ function renderBlog(blog) {
   const divRow = document.getElementById("divRow"); // grabbing the row to append to
   divRow.classList = "row";
 
-  const blogDiv = document.createElement("div");
-  blogDiv.classList = "blog-title";
+  // const blogDiv = document.createElement("div");
+  // blogDiv.classList = "blog-title";
 
   const h2 = document.createElement("h2"); // blog
   h2.textContent = blog.title;
@@ -21,8 +21,8 @@ function renderBlog(blog) {
     renderBlogPosts(blog);
   });
 
-  blogDiv.append(h2);
-  divRow.append(blogDiv);
+  // blogDiv.append(h2);
+  divRow.append(h2);
   return divRow;
 }
 
@@ -33,10 +33,10 @@ function renderBlogPosts(blog) {
   const blogDiv = document.createElement("div");
   blogDiv.classList = "blog-block";
 
-  const h2 = document.createElement("h2"); // blog
-  h2.textContent = blog.title;
+  const h3 = document.createElement("h3"); // blog
+  h3.textContent = blog.title;
 
-  blogDiv.append(h2);
+  blogDiv.append(h3);
   // prettier-ignore
   const blogpost = blog.blogpost
   const lines = blogpost.split("\n"); // picks up the line between each paragraph to later display in paragraphs and not one big group of text

@@ -6,7 +6,7 @@ function renderPage() {
 function setHeaderHtml() {
   const header = document.getElementById("header");
   header.innerHTML = `
-<h1>Galit Moss <span class="pronouns">she/her</span></h1>
+<h1 class="name">Galit Moss <span class="pronouns">she/her</span></h1>
 <h2 class="subheading">Passionate TV enthusiast turned aspiring Software Developer 🚀</h2>
 <nav class="navbar navbar-expand-lg border-bottom border-bottom-dark" data-bs-theme="dark">
     <div class="container-fluid">
@@ -14,7 +14,6 @@ function setHeaderHtml() {
         <li class="nav-item nav-link" onClick="renderAbout()">About Me</li>
         <li class="nav-item nav-link" onClick="projectDisplay()">Projects</li>
         <li class="nav-item nav-link" onClick="blogDisplay()">Blog (new!)</li>
-
         <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/galitmoss/" target="_blank">LinkedIn</a>
         </li>
