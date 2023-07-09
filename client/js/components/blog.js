@@ -50,14 +50,16 @@ function renderBlogPosts(blog) {
     blogDiv.append(element);
   });
 
-  const buttonDiv = document.createElement("div");
+  const btnDiv = document.createElement("div");
+  btnDiv.classList = "btnDiv";
   const goBackBtn = document.createElement("button");
   goBackBtn.textContent = "Back to all blogs";
+  goBackBtn.classList = "btn btn-dark"; // makes the link a button with css classes
   goBackBtn.addEventListener("click", () => {
     blogDisplay();
   });
 
-  buttonDiv.append(goBackBtn);
-  divRow.replaceChildren(blogDiv, buttonDiv);
+  btnDiv.append(goBackBtn);
+  divRow.replaceChildren(blogDiv, btnDiv);
   return divRow;
 }
