@@ -14,11 +14,31 @@ function renderBlog(blog) {
   const blogDiv = document.createElement("div");
   blogDiv.classList = "blog-block";
 
-  const h3 = document.createElement("h3"); // blog
-  h3.textContent = blog.title;
-  h3.classList = "blog-title";
+  const h2 = document.createElement("h2"); // blog
+  h2.textContent = blog.title;
+  h2.classList = "blog-title";
 
-  blogDiv.append(h3);
+  h2.addEventListener("click", () => {
+    renderBlogPosts(blog);
+  });
+
+  blogDiv.append(h2);
+
+  divRow.append(blogDiv);
+  return divRow;
+}
+
+function renderBlogPosts(blog) {
+  const divRow = document.getElementById("divRow"); // grabbing the row to append to
+  divRow.classList = "row";
+
+  const blogDiv = document.createElement("div");
+  blogDiv.classList = "blog-block";
+
+  const h2 = document.createElement("h2"); // blog
+  h2.textContent = blog.title;
+
+  blogDiv.append(h2);
   // prettier-ignore
   const blogpost = blog.blogpost
   const lines = blogpost.split("\n"); // picks up the line between each paragraph to later display in paragraphs and not one big group of text
