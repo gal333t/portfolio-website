@@ -22,9 +22,13 @@ Please welcome Backend to the portfolio website! Even though no one ever saw the
 
 And here we go, the Blog has begun! More to come, stay tuned. Going to be writing about my experience in the course & learning all these new skills. Updated colours, addded a little variety in there to give it something less bland. But I did love the greyish tones, maybe one day I'll dial it back a bit again.
 
+### Updated Version 2.2
+
+This was super fun. I am really enjoying these little updates every Sunday. Now when you click on Blog in the navigation bar, you can see the titles of each post and click through to read the blog itself! Very cool little addition to clean up the page a bit.
+
 ### What I want to add:
 
-- Move the blogs to their own page, make the heading visible only and you can click through that to read the whole thing. Or a read more p tag underneath to click on.
 - My CV, not sure the best way to do this to TBD for now if/how I'll deploy this info
 - A page showcasing some screenshots of my work (both when they were in development and current)
 - Mobile responsiveness, specifically for the navbar (maybe turning it into a Bootstrap collapsible navbar? )
+- Work on making it an accessible webpage that works well with a screen reader

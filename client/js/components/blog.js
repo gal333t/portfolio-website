@@ -11,18 +11,19 @@ function renderBlog(blog) {
   const divRow = document.getElementById("divRow"); // grabbing the row to append to
   divRow.classList = "row";
 
-  // const blogDiv = document.createElement("div");
-  // blogDiv.classList = "blog-title";
+  const blogDiv = document.createElement("div");
+  blogDiv.classList = "blog-title-div";
 
   const h2 = document.createElement("h2"); // blog
   h2.textContent = blog.title;
+  h2.classList = "blog-title";
 
   h2.addEventListener("click", () => {
     renderBlogPosts(blog);
   });
 
-  // blogDiv.append(h2);
-  divRow.append(h2);
+  blogDiv.append(h2);
+  divRow.append(blogDiv);
   return divRow;
 }
 

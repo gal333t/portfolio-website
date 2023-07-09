@@ -95,7 +95,8 @@ a:hover {
 
 .blog-block,
 .project-block,
-.blog-title {
+.blog-title,
+.blog-title-div {
   border: transparent;
   border-radius: 3px;
   padding: 10px;
@@ -107,7 +108,7 @@ a:hover {
   background-color: rgb(163, 151, 158);
 }
 
-.blog-title > h2 {
+.blog-title {
   text-align: center;
   color: rgb(163, 151, 158);
 }
