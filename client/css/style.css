@@ -58,7 +58,7 @@ a:hover {
 }
 
 .project-container {
-  border-radius: 3px;
+  border-radius: 5px;
   border: transparent;
 }
 
@@ -97,7 +97,7 @@ a:hover {
 .project-block,
 .blog-title {
   border: transparent;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 10px;
   margin: 10px;
 }
@@ -108,17 +108,18 @@ a:hover {
 
 .blog-title-div {
   border: transparent;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .blog-title {
   text-align: center;
   color: rgb(163, 151, 158);
+  font-size: 30px;
 }
 
 .blog-title:hover {
   font-weight: bolder;
-  font-size: larger;
+  font-size: 35px;
   transform: ease 0.5s;
 }
 
