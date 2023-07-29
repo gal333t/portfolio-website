@@ -41,12 +41,10 @@ function renderBlogPosts(blog) {
   // prettier-ignore
   const blogpost = blog.blogpost
   const lines = blogpost.split("\n"); // picks up the line between each paragraph to later display in paragraphs and not one big group of text
-  console.log(lines);
   lines.forEach((paragraph) => {
     let element;
     element = document.createElement("p");
     element.textContent = paragraph;
-    console.log(paragraph);
     blogDiv.append(element);
   });
 

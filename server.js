@@ -46,7 +46,7 @@ mongoClient
       {
         project: "Project 3",
         name: "BucketList.AI",
-        info: "The Dream Team came together on this project for Unit 3, utilising our new backend skills with our frontend knowledge create BucketList.AI. Users can choose bucket list travel destinations and have ChatGPT generate them a travel itinerary based on a few prompts such as budget, length of trip & some choices for activities.",
+        info: "The Dream Team came together on this project for Unit 3, utilising our new backend skills with our frontend knowledge create BucketList.AI. Users can choose bucket list travel destinations and have ChatGPT generate them a travel itinerary based on a few prompts such as budget, length of trip & some choices for activities. It was the first group project we got to do, our README on Github has more info on each of those legends.",
         github: "https://github.com/kayasuu/Dream-Team",
       },
     ]);
