@@ -119,8 +119,8 @@ a:hover {
 
 .blog-title:hover {
   font-weight: bolder;
-  font-size: 35px;
-  transform: ease 0.5s;
+  font-size: 32px;
+  transform: ease 0.05s;
 }
 
 .link {
