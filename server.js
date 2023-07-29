@@ -43,6 +43,12 @@ mongoClient
         info: "Couldn't forget to add one of the funnest and most challenging projects I've worked on. This website! A combination (so far) of 2 Sundays, I put together a website to showcase my work. Incorporating Bootstrap which I had never used before, and testing my new backend Javascript skills. I reckon I did alright! Very proud of this one and can't wait to continue to work on this and improve it even further. My README will have a more in depth of the progress this website went through.",
         github: "https://github.com/gal333t/portfolio-website",
       },
+      {
+        project: "Project 3",
+        name: "BucketList.AI",
+        info: "The Dream Team came together on this project for Unit 3, utilising our new backend skills with our frontend knowledge create BucketList.AI. Users can choose bucket list travel destinations and have ChatGPT generate them a travel itinerary based on a few prompts such as budget, length of trip & some choices for activities.",
+        github: "https://github.com/kayasuu/Dream-Team",
+      },
     ]);
   })
   .catch((error) => {
