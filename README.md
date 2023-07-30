@@ -4,7 +4,7 @@
 
 I've finally gotten around to making a portfolio website! At first I left it as a simple HTML page and took the opportunity to learn Bootstrap for my CSS, but in the middle of Project 3 I decided to go full out Javascript. Updates will be noted below in relevant sections, outlining each stage a bit more.
 
-As it's deployed on Render, please be patient as it can take a little while to load.
+I also one upped myself and bought a domain, so you can now access it using galitmoss.com which is wild and awesome. It will be a little slow to load as it is using a free server on Render but it shouldn't be too bad!
 
 ## Version 1.0
 
