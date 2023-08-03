@@ -146,3 +146,16 @@ a:hover {
   height: 40%;
   width: 40%;
 }
+
+.resume {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.resume-p {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}

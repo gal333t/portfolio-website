@@ -32,10 +32,15 @@ Released _July 9th_
 
 This was super fun. I am really enjoying these little updates every Sunday. Now when you click on Blog in the navigation bar, you can see the titles of each post and click through to read the blog itself! Very cool little addition to clean up the page a bit. I need to finish off a few more posts to test how it looks and finish making styling changes instead of just saying I have in every commit.
 
+### Updated Version 2.3 -
+
+Released _August 3rd_
+
+My resume has been attached! Just a simple quick update that I may backtrack on and remove but for now it felt relevant. One more item to tick off the below list.
+
 ### What I want to add:
 
 - While in a blog heavy mood atm, I am thinking of adding a time stamp or some acknowledgment on the first rendered page with the headings where it shows the date. I will be adding this for my Sunday Musings every week, but could be cool to track them all. That page just needs a little something more.
-- My CV, not sure the best way to do this to TBD for now if/how I'll deploy this info
 - A page showcasing some screenshots of my work (both when they were in development and current)
 - Mobile responsiveness, specifically for the navbar (maybe turning it into a Bootstrap collapsible navbar? )
 - Work on making it an accessible webpage that works well with a screen reader
