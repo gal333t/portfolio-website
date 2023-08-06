@@ -138,7 +138,9 @@ a:hover {
   bottom: 0px;
   left: 0px;
 }
-
+.project-btn {
+  margin: 5px;
+}
 .photo-me {
   border: 1px transparent;
   border-radius: 50%;

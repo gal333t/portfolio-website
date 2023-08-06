@@ -37,6 +37,7 @@ mongoClient
         name: "Ron Swanson API",
         info: "This is a wildcard, but I really loved this homework that I did in collaboration with a classmate. We used Javascript and APIs to create a Ron Swanson Quote Generator. Their CSS skills really took it to the next level, such a fun website to use anytime you'd like a handy Ron Swanson quote!",
         github: "https://github.com/gal333t/ronswanson",
+        link: "https://gal333t.github.io/ronswanson/",
       },
       {
         project: "Website",
@@ -49,6 +50,7 @@ mongoClient
         name: "BucketList.AI",
         info: "The Dream Team came together on this project for Unit 3, utilising our new backend skills with our frontend knowledge create BucketList.AI. Users can choose bucket list travel destinations and have ChatGPT generate them a travel itinerary based on a few prompts such as budget, length of trip & some choices for activities. It was the first group project we got to do, our README on Github has more info on each of those legends.",
         github: "https://github.com/kayasuu/Dream-Team",
+        link: "https://render-express-dreamt.onrender.com/",
       },
     ]);
   })
