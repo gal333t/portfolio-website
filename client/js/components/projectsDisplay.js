@@ -41,7 +41,7 @@ function renderList(project) {
     let link = project.link; // fetches the url from the db
     linkBtn.setAttribute("href", link); // sets the link to the github db
     linkBtn.setAttribute("target", "_blank"); // adds the _blank so link opens in new page
-    // btnDiv.append(linkBtn);
+    btnDiv.append(linkBtn);
   }
 
   btnDiv.append(githubBtn);
