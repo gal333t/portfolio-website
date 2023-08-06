@@ -37,10 +37,11 @@ function renderList(project) {
     const linkBtn = document.createElement("a"); // creating the Github button through an a tag
     linkBtn.textContent = "Play";
     linkBtn.classList = "btn btn-dark"; // makes the link a button with css classes
+    console.log(project.link);
     let link = project.link; // fetches the url from the db
     linkBtn.setAttribute("href", link); // sets the link to the github db
     linkBtn.setAttribute("target", "_blank"); // adds the _blank so link opens in new page
-    btnDiv.append(linkBtn);
+    // btnDiv.append(linkBtn);
   }
 
   btnDiv.append(githubBtn);

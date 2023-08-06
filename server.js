@@ -24,6 +24,7 @@ mongoClient
         name: "Word Galactica",
         info: "Being an avid Worlde player myself, working on this project was an absolute blast! It provided an excellent opportunity to apply our recently acquired skills in HTML, JavaScript, and CSS to craft our unique version inspired by Wordle. Although it felt a bit overwhelming as it was my first project, I've enjoyed revisiting it after submission and making further improvements. Currently the only bug I am stuck with is to do with duplicate letters, something I will come back and fix Unlike Wordle, my game allows you to refresh and play as many times as you desire!",
         github: "https://github.com/gal333t/Project-One",
+        link: "https://gal333t.github.io/Project-One/",
       },
       {
         project: "Project Two",
