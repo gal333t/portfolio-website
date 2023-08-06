@@ -25,12 +25,23 @@ function renderList(project) {
 
   const btnDiv = document.createElement("div");
   btnDiv.classList = "btnDiv";
+
   const githubBtn = document.createElement("a"); // creating the Github button through an a tag
   githubBtn.textContent = "Github";
   githubBtn.classList = "btn btn-dark"; // makes the link a button with css classes
   let url = project.github; // fetches the url from the db
   githubBtn.setAttribute("href", url); // sets the link to the github db
   githubBtn.setAttribute("target", "_blank"); // adds the _blank so link opens in new page
+
+  if (project.link) {
+    const linkBtn = document.createElement("a"); // creating the Github button through an a tag
+    linkBtn.textContent = "Play";
+    linkBtn.classList = "btn btn-dark"; // makes the link a button with css classes
+    let link = project.link; // fetches the url from the db
+    linkBtn.setAttribute("href", link); // sets the link to the github db
+    linkBtn.setAttribute("target", "_blank"); // adds the _blank so link opens in new page
+    btnDiv.append(linkBtn);
+  }
 
   btnDiv.append(githubBtn);
 
