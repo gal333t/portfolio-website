@@ -12,51 +12,10 @@ const mongoClient = new MongoClient(process.env.MONGO_DB_CONNECTION_STRING);
 let projectsCollection;
 let blogsCollection;
 
-mongoClient
-  .connect()
-  .then((_) => {
-    const db = mongoClient.db("Portfolio");
-    db.dropCollection("projects");
-    projectsCollection = db.collection("projects");
-    projectsCollection.insertMany([
-      {
-        project: "Project One",
-        name: "Word Galactica",
-        info: "Being an avid Worlde player myself, working on this project was an absolute blast! It provided an excellent opportunity to apply our recently acquired skills in HTML, JavaScript, and CSS to craft our unique version inspired by Wordle. Although it felt a bit overwhelming as it was my first project, I've enjoyed revisiting it after submission and making further improvements. Currently the only bug I am stuck with is to do with duplicate letters, something I will come back and fix Unlike Wordle, my game allows you to refresh and play as many times as you desire!",
-        github: "https://github.com/gal333t/Project-One",
-        link: "https://gal333t.github.io/Project-One/",
-      },
-      {
-        project: "Project Two",
-        name: "Mother's Day",
-        info: "Our second unit was focused on Python, Flask and Postgres. The timing of this project gave me the idea to create a website that would serve as a card for Mother's Day. I had a table of users, which included my siblings and myself that allowed users to write/edit/delete messages for our mum. When you were done, you could view whatever you had written but only my mum could go in and see everyone's messages together. My mum loved it so much, a pity Render only stores it for 6 months. Thankfully took some screenshots for her, and I will try hosting on other websites in the future to bring it back to life.",
-        github: "https://github.com/gal333t/project-2",
-      },
-      {
-        project: "Homework",
-        name: "Ron Swanson API",
-        info: "This is a wildcard, but I really loved this homework that I did in collaboration with a classmate. We used Javascript and APIs to create a Ron Swanson Quote Generator. Their CSS skills really took it to the next level, such a fun website to use anytime you'd like a handy Ron Swanson quote!",
-        github: "https://github.com/gal333t/ronswanson",
-        link: "https://gal333t.github.io/ronswanson/",
-      },
-      {
-        project: "Website",
-        name: "Galit's Portfolio",
-        info: "Couldn't forget to add one of the funnest and most challenging projects I've worked on. This website! A combination (so far) of 2 Sundays, I put together a website to showcase my work. Incorporating Bootstrap which I had never used before, and testing my new backend Javascript skills. I reckon I did alright! Very proud of this one and can't wait to continue to work on this and improve it even further. My README will have a more in depth of the progress this website went through.",
-        github: "https://github.com/gal333t/portfolio-website",
-      },
-      {
-        project: "Project 3",
-        name: "BucketList.AI",
-        info: "The Dream Team came together on this project for Unit 3, utilising our new backend skills with our frontend knowledge create BucketList.AI. Users can choose bucket list travel destinations and have ChatGPT generate them a travel itinerary based on a few prompts such as budget, length of trip & some choices for activities. It was the first group project we got to do, our README on Github has more info on each of those legends.",
-        github: "https://github.com/kayasuu/Dream-Team",
-        link: "https://render-express-dreamt.onrender.com/",
-      },
-    ]);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+mongoClient.connect().then((_) => {
+  const db = mongoClient.db("Portfolio");
+  projectsCollection = db.collection("projects");
+});
 
 app.get("/api/project", (_, response) => {
   projectsCollection
