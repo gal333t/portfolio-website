@@ -14,7 +14,6 @@ function setHeaderHtml() {
         <li class="nav-item nav-link" onClick="renderAbout()">About Me</li>
         <li class="nav-item nav-link" onClick="projectDisplay()">Projects</li>
         <li class="nav-item nav-link" onClick="blogDisplay()">Blog</li>
-        <li class="nav-item nav-link" onClick="resumeDisplay()">Resume</li>
         <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/galitmoss/" target="_blank">LinkedIn</a>
         </li>

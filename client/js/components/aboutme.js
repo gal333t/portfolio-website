@@ -33,7 +33,7 @@ function renderAbout() {
     </li>
     <li>I am a diehard NRL fan. My team are the Roosters, but I am a bit of a Broncos fan too (much to the disappointment of my family). I love the
         rugby league community & how it brings people together. And I also love to match my makeup & nails to my game day attire.</li>
-    <li>I've been learning Yiddish on Duolingo for over 430 days now. I should add a counter that updates
+    <li>I've been learning Yiddish on Duolingo for over 570 days now. I should add a counter that updates
         on the daily to show off my streak, maybe one day.
     </li>
     <li>I'm really passionate about recycling and one of my favourite things to do when I had weekends and free time, was
